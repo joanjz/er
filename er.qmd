@@ -1,0 +1,38 @@
+---
+title: "A report for the Maryland Department of transportation"
+subtitle: "This document is a starter report that fits the branding of the <a href='https://mdot.maryland.gov/'>Maryland Department of Transportation</a>"
+format:
+  lumo-html: 
+    logo: "logo.png"                             # Optional. Path to a logo displayed above the title
+    primary-color: "#a31f37"
+    self-contained: true
+    is-particlejs-enabled: true                  # Optional: display interactive particles in the document header
+author: Joan Jimenez
+date: last-modified
+---
+
+
+## Introduction
+
+Quarto is probably my favorite tool in the R/Python universe. Transforming your code and thoughts into a stunning report in one click always blows my mind.
+
+While the default Quarto appearance **looks great**, there are [a few tweaks](https://www.productive-r-workflow.com/quarto-tricks) I always apply to elevate the report even further. Rather than manually adding them each time, I bundled everything into a custom format called `lumo`.
+
+
+::: {.column-margin}
+
+Btw, you can learn how to master Quarto thanks to my online course: [Productive R Workflow](https://www.productive-r-workflow.com)
+
+:::
+
+
+This document aims at showcasing how a quarto document made with the `lumo` format looks like.
+
+
+## Load Packages
+
+Make sure to load **all your packages** at the start of your document for clarity and consistency.
+
+Notice that the code chunks are folded by default. You can adjust this behavior with the `code-fold` option in the document's YAML header.
+
+
